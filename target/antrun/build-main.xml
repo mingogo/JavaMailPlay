@@ -1,0 +1,10 @@
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+ <echo message="Creating folder for Mongo connection properties..."/>
+ <mkdir dir="C:\Users\mingogo\Desktop\workspace_git\JavaMailPlay/src/main/resources/dev"/>
+ <mkdir dir="C:\Users\mingogo\Desktop\workspace_git\JavaMailPlay/src/main/resources/local"/>
+ <mkdir dir="C:\Users\mingogo\Desktop\workspace_git\JavaMailPlay/src/main/resources/prod"/>
+ <mkdir dir="C:\Users\mingogo\Desktop\workspace_git\JavaMailPlay/src/main/resources/qa"/>
+</target>
+
+</project>
